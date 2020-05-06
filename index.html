@@ -677,7 +677,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script src="js/smooth-scroll.polyfills.js"></script>
+  <script src="js/smooth-scroll.polyfills.min.js"></script>
   <script>
       var scroll = new SmoothScroll('a[href*="home"], a[href*="productos"], a[href*="contacto"]', {
       speed: 500
@@ -689,9 +689,10 @@
   <script>
     new WOW().init()
 
-    //
-    $('#myCarousel').on('slide.bs.carousel', function () {
-  // do something...
+    $(function () {
+  $('.material-tooltip-main').tooltip({
+    template: '<div class="tooltip md-tooltip"><div class="tooltip-arrow md-arrow"></div><div class="tooltip-inner md-inner"></div></div>'
+  });
 })
   </script>
 
