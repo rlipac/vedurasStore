@@ -25,19 +25,19 @@ hr.my-hr-1{
 
 
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .my-fondo-texto:hover {
       padding: 20px;
-      background-image: url('https://i.ibb.co/98jNsNL/fondo-negro-2.jpg');
-      background-repeat: no-repeat; background-size: cover;
-      /* background: black; */
-      opacity: .4; 
-      border-radius: 2.5%;
+    
+      background: black;
+      opacity: 0.1; 
+      border-radius: 1.5%;
        
     
   }
   
 }
+ */
 
 
 @media (max-width: 1024px) {
