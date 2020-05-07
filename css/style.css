@@ -33,21 +33,13 @@ hr.my-hr-1{
       /* background: black; */
       opacity: .4; 
       border-radius: 2.5%;
-     
-    
+       
     
   }
   
 }
 
-/* @media (max-width: 1200px) {
-    .my-fondo-intro{
 
-        background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg'); 
-        height: 450px;
-        width: auto;
-    }
-} */
 @media (max-width: 1024px) {
     .my-fondo-intro {    
         height: 400px;
@@ -55,12 +47,7 @@ hr.my-hr-1{
        
     }
     
-    /* h1.font-weight-bold{
-      border: solid tomato 4px;
-      position: relative;
-      top: 40px;
-      right: 20px;
-   } */
+   
    
 }
 
@@ -105,12 +92,11 @@ hr.my-hr-1{
    
    
 }
-    /* h1.font-weight-bold{
-        font-size: 30px;
+     h1.font-weight-bold {
        position: relative;
-       top: 35px;
-       right: 60px;
-    } */
+       top: 150px;
+       
+    }
 }
 
 
