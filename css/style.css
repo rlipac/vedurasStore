@@ -3,42 +3,68 @@ body,
 header,
 .view {
   height: 100%;
+  
  
 }
 
+.my-fondo-intro {
+  background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg');
+  background-repeat: no-repeat; background-size: cover; 
+  color: white;
+
+}
+.my-title{
+  font-family: 'Galada', cursive;
+}
+hr.my-hr-1{
+  max-width: 500px;
+}
 
 
 /* My Styles */
 
-.my-fondo-texto:hover{
-   
-    background-color:#000;
-    opacity: .5;
-    border-radius: 1.5%;
-   
+
+
+@media (min-width: 800px) {
+    .my-fondo-texto:hover {
+      padding: 20px;
+      background-image: url('https://i.ibb.co/98jNsNL/fondo-negro-2.jpg');
+      background-repeat: no-repeat; background-size: cover;
+      /* background: black; */
+      opacity: .4; 
+      border-radius: 2.5%;
+     
+    
+    
+  }
   
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .my-fondo-intro{
-       
+
         background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg'); 
-        height: 500px;
+        height: 450px;
         width: auto;
     }
-}
+} */
 @media (max-width: 1024px) {
-    .my-fondo-intro{
-       
-        background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg'); 
+    .my-fondo-intro {    
         height: 400px;
         width: auto;
+       
     }
+    
+    /* h1.font-weight-bold{
+      border: solid tomato 4px;
+      position: relative;
+      top: 40px;
+      right: 20px;
+   } */
    
 }
 
-
-@media (max-width: 740px) {
+@media (max-width: 770px) {
   html,
   body,
   header,
@@ -46,41 +72,45 @@ header,
     height: 1000px;
   }
   /* My styles*/
+  h1.font-weight-bold{
+    font-size: 60px;
+  
+  }
+  p.font-header{
+    font-size: 15px;
+  }
   .my-card-small{
     height: auto;
 }  
-.my-fondo-intro{
-  
-    background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg'); 
-    height: 350px;
+.my-fondo-intro {
+    background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg');
+    height: 320px;
     width: auto;
+  
+  
    
 }
-.my-hr-1{
-   
-    display: none;
-}
-h1.font-weight-bold{
-   position: relative;
-   top: 40px;
-   right: 140px;
-}
+
+    .my-hr-1{
+      
+        display: none;
+    }
 
 
 }
 @media (max-width: 500px) {
-    .my-fondo-intro{
-       
-        background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg'); 
-        height: 190px;
-        width: auto;
-    }
-    h1.font-weight-bold{
+  .my-fondo-intro{
+    background-image: url('https://i.ibb.co/hCyBSFc/verdura-small.jpg');
+    background-repeat: no-repeat; background-size: cover;
+   
+   
+}
+    /* h1.font-weight-bold{
         font-size: 30px;
        position: relative;
        top: 35px;
        right: 60px;
-    }
+    } */
 }
 
 
@@ -91,13 +121,21 @@ h1.font-weight-bold{
   header,
   .view {
     height: 650px;
+   
   }
+  /* my style*/
+  .my-fondo-intro {
+    background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg');
+    height: 350px;
+    width: auto; 
+ }
  
 }
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
      background: #1C2331!important;
   }
+  
 }
 /* Navbar animation */
 .navbar {

@@ -11,12 +11,13 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?1">
 </head>
 <body>
 
@@ -25,8 +26,8 @@
   <div class="container">
 
     <!-- Brand -->
-    <a class="navbar-brand" href="#">
-      <strong>Verduras Frescas</strong>
+    <a class="navbar-brand" href="#logo" id="logo">
+      <strong class="my-title">Verduras Frescas</strong>
     </a>
 
     <!-- Collapse -->
@@ -45,9 +46,9 @@
             <span class="sr-only">(current)</span>
           </a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#" target="">About MDB</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#productos" target=""">Productos</a>
         </li>
@@ -78,7 +79,8 @@
 <!-- Navbar -->
 
 <!-- Full Page Intro -->
-<div class="view full-page-intro my-fondo-intro" style="background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg'); background-repeat: no-repeat; background-size: cover;">
+<div class="view full-page-intro my-fondo-intro mx-auto">
+<!-- <div class="view full-page-intro my-fondo-intro" style="background-image: url('https://i.ibb.co/LJpDSZH/slider.jpg'); background-repeat: no-repeat; background-size: cover;"> -->
 
   <!-- Mask & flexbox options-->
   <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -93,16 +95,16 @@
         <!--Grid column-->
         <div class="col-md-6 mb-4 white-text text-center text-md-left my-fondo-texto">
            
-              <h1 class="display-4 font-weight-bold">Come Sano</h1>
+              <h1 class="display-4 font-weight-bold my-title">Come Sano</h1>
 
                 <hr class="hr-light my-hr-1">
       
-                <p class="mb-4 d-none d-md-block">
-                  <strong>Disfrutando de la alimentación saludable.</strong>
+                <p class="mb-4 d-none d-md-block font-header">
+                  <strong>Disfrutando de la alimentación saludable sin salir de casa.</strong>
                 </p>
       
-                <p class="mb-4 d-none d-md-block">
-                  <strong>Trabajamos con los mejores proveedores de fruta y verdura, asegurándonos siempre de su origen.</strong>
+                <p class="mb-4 d-none d-md-block font-header">
+                  <strong>Trabajamos con los mejores proveedores verduras y hortalizas, asegurándonos siempre de su origen.</strong>
                 </p>
              
          
@@ -139,7 +141,12 @@
 <main>
  
   <div class="container mt-5">
-
+    <style>
+      .card-body {
+        border-bottom-left-radius: inherit !important;
+        border-bottom-right-radius: inherit !important;
+      }
+    </style>
     
     <!--Section: Content-->
     <section class="dark-grey-text text-center" id="productos">
@@ -153,8 +160,8 @@
       
  
       <!-- Grid row -->
-      <div class="row">
-  
+      <div class="row wow fadeInLeftBig">
+      
         <!-- Grid column -->
         <div class="col-lg-3 col-md-6 mb-4">
           <!-- Collection card -->
@@ -166,13 +173,13 @@
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Papa Amarilla</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">La papa amarilla es ideal para hcer pure de papas y la deliciosa caula limeña.</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
                           <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
@@ -201,22 +208,17 @@
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Cebolla Roja</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">Las mejores Cebollas para ensaladas, escabeche  y el rico ceviche.</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
+                          <p class="float-left font-weight-bold mb-1 pb-2">3.5 soles Kilo.</p>
+                          
                         </div>
                       </div>
                       <!-- Card content -->           
@@ -235,22 +237,17 @@
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Choclo Serrano extra Grande</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">Choclos tiernos ideales para sancochar.</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
+                          <p class="float-left font-weight-bold mb-1 pb-2">2 Soles x Uni.</p>
+                         
                         </div>
                       </div>
                       <!-- Card content -->           
@@ -270,22 +267,17 @@
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Aji Limo</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">Delicioso y aromatico aji limo para salsas y ensaladas.</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
+                          <p class="float-left font-weight-bold mb-1 pb-2">3 Soles Kilo</p>
+                         
                         </div>
                       </div>
                       <!-- Card content -->           
@@ -301,7 +293,7 @@
        
   
       </div>
-      <div class="row">
+      <div class="row wow fadeInRight">
   
         <!-- Grid column -->
         <div class="col-lg-3 col-md-6 mb-4">
@@ -309,27 +301,24 @@
           <div class="card collection-card z-depth-1-half">
             <!-- Card image -->
             <div class="view zoom my-card-small">
-              <img src="https://i.ibb.co/NT3m5DH/20054865.png"  class="img-fluid mx-auto"
+             
+              <img src="https://i.ibb.co/Z8X3ns7/59640.png"  class="img-fluid mx-auto"
+
                 alt="">
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Papa Peruanita</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">Ideal para sancochar y consumir en  diversas sopas</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
+                          <p class="float-left font-weight-bold mb-1 pb-2">3 Soles kilo.</p>
+                          
                         </div>
                       </div>
                       <!-- Card content -->           
@@ -344,27 +333,23 @@
           <div class="card collection-card z-depth-1-half">
             <!-- Card image -->
             <div class="view zoom my-card-small">
-              <img src="https://i.ibb.co/4Kj6RVP/844123.png"  class="img-fluid mx-auto"
+             
+              <img src="https://i.ibb.co/M58rJZ5/60288.png"  class="img-fluid mx-auto"
                 alt="">
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Limon</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">Rico y jugoso limon de Chulucanas.</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
+                          <p class="float-left font-weight-bold mb-1 pb-2"> 3 Soles Kilo.</p>
+                         
                         </div>
                       </div>
                       <!-- Card content -->           
@@ -379,26 +364,22 @@
           <div class="card collection-card z-depth-1-half">
             <!-- Card image -->
             <div class="view zoom my-card-small">
-               <img src="https://i.ibb.co/6rgpZtn/993908.png"  class="img-fluid mx-auto" alt="choclo"/>
+             
+               <img src="https://i.ibb.co/GQLb65H/59053.png"  class="img-fluid mx-auto" alt="choclo"/>
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Alverjas Serrana</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">Para diversos guisos y sopas .</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
+                          <p class="float-left font-weight-bold mb-1 pb-2">7 Soles Kilo.</p>
+                          
                         </div>
                       </div>
                       <!-- Card content -->           
@@ -413,27 +394,23 @@
           <div class="card collection-card z-depth-1-half">
             <!-- Card image -->
             <div class="view zoom my-card-small">
-              <img src="https://i.ibb.co/P5c45tt/58834.png"  class="img-fluid mx-auto"
+           
+              <img src="https://i.ibb.co/LSS5VVb/58797.png"  class="img-fluid mx-auto"
                 alt="aji">
                      <!-- Card content -->
                       <div class="card-body card-body-cascade text-center pb-0">
                         <!-- Title -->
-                        <h5 class="card-title">
+                        <h5 class=" ">
                           <strong>
-                            <a href="">GoPro</a>
+                            <a href="#" class="text-success">Aji Amarillo</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit.</p>
+                        <p class="card-text">Paa Los diversos adresos de nuestra comida criolla.</p>
                         <!-- Card footer -->
                         <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
+                          <p class="float-left font-weight-bold mb-1 pb-2">3 soles kilo.</p>
+                          
                         </div>
                       </div>
                       <!-- Card content -->           
@@ -458,7 +435,7 @@
   </div>
 
 
-  <div class="container mt-5" id="contacto">
+  <div class="container mt-5 wow fadeInUpBig" id="contacto">
 
  
     <!--Section: Content-->
@@ -679,13 +656,18 @@
   <!-- Your custom scripts (optional) -->
   <script src="js/smooth-scroll.polyfills.min.js"></script>
   <script>
-      var scroll = new SmoothScroll('a[href*="home"], a[href*="productos"], a[href*="contacto"]', {
-      speed: 500
-    // speedAsDuration: true // omite la velocidad
+      var scroll = new SmoothScroll('a[href*="home"], a[href*="logo"], a[href*="productos"], a[href*="contacto"]', {
+      speed: 1500,
+      speedAsDuration: true // omite la velocidad
       
     });
   </script>
   <script type="text/javascript"></script>
+  <script>
+    $( document ).ready(function() {
+      new WOW().init();
+    });
+  </script>
   <script>
     new WOW().init()
 
