@@ -13,6 +13,10 @@ header,
   color: white;
 
 }
+.my-title-1{
+  font-size: 3rem;
+  font-family: 'Galada', cursive;
+}
 .my-title{
   font-family: 'Galada', cursive;
 }
@@ -96,6 +100,12 @@ hr.my-hr-1{
        position: relative;
        top: 150px;
        
+    }
+    .my-title-1{
+     
+        font-size: 1.6rem;
+        font-family: 'Galada', cursive;
+      
     }
 }
 
