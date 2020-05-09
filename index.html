@@ -170,7 +170,7 @@
               <img src="https://i.ibb.co/NT3m5DH/20054865.png"  class="img-fluid mx-auto"
                 alt="">
                      <!-- Card content -->
-                      <div class="card-body card-body-cascade text-center pb-0">
+                     <div class="card-body text-center">
                         <!-- Title -->
                         <h5 class=" ">
                           <strong>
@@ -180,15 +180,12 @@
                         <!-- Description -->
                         <p class="card-text">La papa amarilla es ideal para hcer pure de papas y la deliciosa caula limeña.</p>
                         <!-- Card footer -->
-                        <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">1439$</p>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
-                            <i class="fas fa-heart grey-text ml-3"></i>
-                          </a>
-                          <a class="float-right material-tooltip-main" data-toggle="tooltip" data-placement="top" title="Quick Look">
-                            <i class="fas fa-eye grey-text ml-3"></i>
-                          </a>
-                        </div>
+                       
+                          
+                          <h5 class="font-weight-bold mb-0">
+                            <strong class="font-weight-bold">3 Soles Kilo</strong>
+                          </h5>
+                      
                       </div>
                       <!-- Card content -->           
             </div>
@@ -204,23 +201,25 @@
             <div class="view zoom my-card-small">
               <img src="https://i.ibb.co/4Kj6RVP/844123.png"  class="img-fluid mx-auto"
                 alt="">
-                     <!-- Card content -->
-                      <div class="card-body card-body-cascade text-center pb-0">
-                        <!-- Title -->
-                        <h5 class=" ">
-                          <strong>
-                            <a href="#" class="text-success">Cebolla Roja</a>
-                          </strong>
-                        </h5>
-                        <!-- Description -->
-                        <p class="card-text">Las mejores Cebollas para ensaladas, escabeche  y el rico ceviche.</p>
-                        <!-- Card footer -->
-                        <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">3.5 soles Kilo.</p>
-                          
-                        </div>
-                      </div>
-                      <!-- Card content -->           
+                    <!-- Card content -->
+                
+                  
+                        <div class="card-body text-center">
+                          <!-- Category & Title -->
+                          <h5 class=" ">
+                            <strong>
+                              <a href="#" class="text-success">Cebolla Roja</a>
+                            </strong>
+                          </h5>
+                         
+                         <p class="card-text mb-3">La papa amarilla es ideal para hcer pure de papas y la deliciosa caula limeña.</p>
+                       
+                          <h5 class="font-weight-bold mb-0">
+                            <strong class="font-weight-bold">3.5 soles Kilo</strong>
+                          </h5>
+                     </div>
+                  <!-- Card content -->
+                             
             </div>
             <!-- Card image -->
           </div>
@@ -234,20 +233,20 @@
             <div class="view zoom my-card-small">
                <img src="https://i.ibb.co/6rgpZtn/993908.png"  class="img-fluid mx-auto" alt="choclo"/>
                      <!-- Card content -->
-                      <div class="card-body card-body-cascade text-center pb-0">
+                     <div class="card-body text-center">
                         <!-- Title -->
-                        <h5 class=" ">
+                        <h5 class="">
                           <strong>
                             <a href="#" class="text-success">Choclo Serrano extra Grande</a>
                           </strong>
                         </h5>
                         <!-- Description -->
-                        <p class="card-text">Choclos tiernos ideales para sancochar.</p>
-                        <!-- Card footer -->
-                        <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">2 Soles x Uni.</p>
-                         
-                        </div>
+                        <p class="card-text mb-3">Choclos tiernos ideales para sancochar.</p>
+                       
+                      
+                        <h5 class="font-weight-bold mb-0">
+                          <strong class="font-weight-bold">2  Soles x Unidad</strong>
+                        </h5>
                       </div>
                       <!-- Card content -->           
             </div>
@@ -263,23 +262,24 @@
             <div class="view zoom my-card-small">
               <img src="https://i.ibb.co/P5c45tt/58834.png"  class="img-fluid mx-auto"
                 alt="aji">
-                     <!-- Card content -->
-                      <div class="card-body card-body-cascade text-center pb-0">
+                   
+                       <!-- Card content -->
+                     <div class="card-body text-center">
                         <!-- Title -->
                         <h5 class=" ">
                           <strong>
-                            <a href="#" class="text-success">Aji Limo</a>
+                            <a href="#" class="text-success">Aji Limo </a>
                           </strong>
                         </h5>
-                        <!-- Description -->
-                        <p class="card-text">Delicioso y aromatico aji limo para salsas y ensaladas.</p>
-                        <!-- Card footer -->
-                        <div class="card-footer mt-4">
-                          <p class="float-left font-weight-bold mb-1 pb-2">3 Soles Kilo</p>
-                         
-                        </div>
-                      </div>
-                      <!-- Card content -->           
+                      <!-- Description -->
+                      <p class="card-text mb-3">Delicioso y aromatico aji limo para salsas y ensaladas.</p>
+                     
+                    
+                      <h5 class="font-weight-bold mb-0">
+                        <strong class="font-weight-bold">3  Soles Kilo</strong>
+                      </h5>
+                    </div>
+                    <!-- Card content -->                
             </div>
             <!-- Card image -->
           </div>
@@ -601,27 +601,28 @@
   <!-- Your custom scripts (optional) -->
   <script src="js/smooth-scroll.polyfills.min.js"></script>
   <script>
-      var scroll = new SmoothScroll('a[href*="home"], a[href*="logo"], a[href*="productos"], a[href*="contacto"]', {
+      // var scroll = new SmoothScroll('a[href*="home"], a[href*="logo"], a[href*="productos"], a[href*="contacto"]', {
+       var scroll = new SmoothScroll('a[href*="#"]', {
       speed: 1500,
+      offset: 110,
       speedAsDuration: true // omite la velocidad
+        
       
     });
   </script>
-  <script type="text/javascript"></script>
-  <script>
-    $( document ).ready(function() {
+  <script type="text/javascript">
+      $( document ).ready(function() {
       new WOW().init();
     });
-  </script>
-  <script>
-    new WOW().init()
+ 
 
     $(function () {
-  $('.material-tooltip-main').tooltip({
-    template: '<div class="tooltip md-tooltip"><div class="tooltip-arrow md-arrow"></div><div class="tooltip-inner md-inner"></div></div>'
-  });
-})
+    $('.material-tooltip-main').tooltip({
+      template: '<div class="tooltip md-tooltip"><div class="tooltip-arrow md-arrow"></div><div class="tooltip-inner md-inner"></div></div>'
+    });
+  })
   </script>
+ 
 
 </body>
 </html>
